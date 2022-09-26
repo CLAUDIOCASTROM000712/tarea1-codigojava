@@ -4,10 +4,10 @@ class Claudioprograma{
         cliente.persona= (persona1) Cliente.getEdad(52);
         cliente.persona= (persona1) Cliente.getDinero(900.50);
         cliente.persona= (persona1) Cliente.getRfc("cagf700712387");
-       // System.out.println();
-       // System.out.println();
-       // System.out.println();
-       // System.out.println();
+        System.out.println(nombre persona1);
+        System.out.println(edad persona1);
+        System.out.println(dinero persona1);
+        System.out.println(rfc persona1);
 
     }
 
@@ -74,7 +74,7 @@ class Cliente extends Persona{
     }
 
 }
-
+/*
 class Asesor extends Persona{
     super.Persona();
     private int noTrabajador;
@@ -112,3 +112,4 @@ class Gerente extends Persona{
     }
 
 }
+*/
